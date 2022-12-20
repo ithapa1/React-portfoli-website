@@ -34,11 +34,11 @@
    width: auto;
    padding: 0.3rem;
 }
-.<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+/* .<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
 <span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active">
 </span><span class="swiper-pagination-bullet">
 </span><span class="swiper-pagination-bullet">
-</span></div>
+</span></div> */
 
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ==========*/

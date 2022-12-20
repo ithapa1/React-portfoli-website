@@ -39,7 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.8;
-    background-image: url(../src/Assets/back.png);
+    /* background-image: url(../src/Assets/back.png); */
 
 }
 /* ====================General styles=============*/
