@@ -1,0 +1,63 @@
+
+/* CSS of the Experience Container */
+.experience__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    height: fit-content;
+}
+
+.experience__container > div {
+    background: var(--color-bg-variant);
+    padding: 1.5rem;
+    border-radius: 20%;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience__container > div:hover {
+    opacity: 0.8;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.experience__container > div {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.Frontend__Langauage {
+    margin-bottom: 2rem;
+    box-shadow:1rem 3rem 2.5rem rgb(168, 156, 156);
+}
+.Frontend__Langauage:hover {
+    background: transparent;
+}
+
+.Backend__Language {
+    margin-bottom: 2rem;
+    box-shadow:1rem 3rem 2.5rem rgb(168, 156, 156);
+}
+.Backend__Language:hover{
+    background: transparent;
+}
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+.experience__container {
+gap: 2.5rem;
+margin:3.5rem;   
+}
+.experience__container > div {
+    padding:0.5rem;
+}
+}
+
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ==========*/
+@media screen and (max-width: 600px) {
+    .experience__container {
+        display: block;
+        margin:0.5rem;
+    }
+
+}

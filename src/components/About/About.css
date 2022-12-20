@@ -1,0 +1,112 @@
+#about {
+    margin-top: 10px;
+}
+.about__container {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    gap: 30px;
+}
+.About__me {
+    width: 65%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary),
+    transparent);
+    display: grid;
+    place-items: center;
+
+}
+.abm-img {
+    width: 100%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    gap: 1.5rem;
+}
+
+.abm-img:hover {
+    transform: rotate(0);
+    transition: var(--transition);
+}
+.About__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+
+}
+.About__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    width:15.5;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.About__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.About__icon {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.About__card h5 {
+    font-size: 0.95rem;
+}
+.About__card small {
+    font-size: 0.75rem;
+    color: var(--color-light);
+}
+.About__content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+    .about__container {
+        display: grid;
+        grid-template-columns: 45% 50%;
+        gap: 38px;
+        margin:1.5rem;
+    }
+.About__cards {
+    gap:0.5rem;
+}
+
+}
+/* =============== MEDIA QUERIES (SMALL DEVICES) ==========*/
+@media screen and (max-width: 600px) {
+    .about__container {
+        display: flex;
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .About__cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .About__cards .About__card {
+        width: 90%;
+    }
+
+    section {
+        height: auto;
+    }
+.About__content p {
+    padding: 0.3rem;
+}
+
+}

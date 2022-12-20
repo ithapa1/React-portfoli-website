@@ -1,0 +1,54 @@
+.container.references__container {
+    width: 65%;
+    padding-bottom: 4rem;
+}
+
+.client_T {
+    width:5rem;
+    padding: 0.3rem;
+    aspect-ratio: 1/1;
+    overflow:hidden;
+    border-radius: 35%;
+    margin: 0 auto 1rem;
+    border: 0.4rem, solid var (--color-primary-variant);
+}
+
+.reference{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 4rem;
+    user-select: none;
+
+}
+
+.client__name{
+    color:rgb(231, 216, 216);
+    background-color: black;
+    opacity: 0.8;
+}
+.client__review {
+   color: var(--color-light);
+   font-weight: 300;
+   display: flex;
+   width: auto;
+   padding: 0.3rem;
+}
+.<div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+<span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active">
+</span><span class="swiper-pagination-bullet">
+</span><span class="swiper-pagination-bullet">
+</span></div>
+
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ==========*/
+@media screen and (max-width: 1024px) {
+    .container.references__container {
+        width: 100%;
+        margin: 2.5rem;
+}
+}
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) ==========*/
+@media screen and (max-width: 600px) {
+    }
