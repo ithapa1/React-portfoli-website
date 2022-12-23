@@ -21,23 +21,23 @@ const About = () => {
       <article className='About__card'>
         <FaAward className='About-icon'/>
         <h5> Experience</h5>
-        <small>3+ Years Working Experience</small>
+        <small>1+ Years Experience</small>
       </article>
       <article className='About__card'>
         <RiUserStarFill className='About-icon'/>
         <h5> Clients</h5>
-        <small>10+ clients worldwide</small>
+        <small>5+ clients</small>
       </article>
       <article className='About__card'>
         <BsFillFolderFill className='About-icon'/>
         <h5> Projects</h5>
-        <small>10+ Completed Projects </small>
+        <small>5+ Completed Projects </small>
       </article>
 
           </div>
 
           <p>
-          A software developer with over 3 years of experience specializing in frontend and backend engineering.
+          A software developer with over 1 years of experience specializing in frontend and backend engineering.
            Fluent in development languages, HTML, CSS, JavaScript, Type- script, Php, Java, Python along with development frameworks,
           Springboot, Angular, Vue JS, React, Node JS etc.        
             </p>
