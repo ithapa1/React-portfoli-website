@@ -66,6 +66,36 @@ Bower, Grunt.</p>
             </li>
           </ul>
         </article>
+        {/* END OF WEB DEVELOPMENT */}
+        {/* <article className = "service">
+          <div className ="service__head">
+            <h3>Web Development</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <HiOutlineCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <HiOutlineCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <HiOutlineCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <HiOutlineCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <HiOutlineCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </article> */}
+        {/* END OF CONTENT CREATION */}
       </div>
     </section>
   )
