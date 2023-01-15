@@ -14,8 +14,8 @@ const Contact = () => {
       <article className="contact__option">
         <MdEmail className ="contact__option-icon"/>
         <h4>Email</h4>
-        <h5>specialindra123@gmail.com</h5>
-        <a href="specialindra123@gmail.com">Reach me out</a>
+        <h5>indrathp39@gmail.com</h5>
+        <a href="https://mail.google.com/">Reach me out</a>
       </article>
       {/* first option */}
       <article className="contact__option">
