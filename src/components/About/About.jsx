@@ -21,7 +21,7 @@ const About = () => {
       <article className='About__card'>
         <FaAward className='About-icon'/>
         <h5> Experience</h5>
-        <small>Multiple Project Experience</small>
+        <small>Multiple Project Experience (2+ year) </small>
       </article>
       <article className='About__card'>
         <RiUserStarFill className='About-icon'/>
@@ -37,8 +37,8 @@ const About = () => {
           </div>
 
           <p>
-          A software developer with Multiple Project experience specializing in frontend and backend engineering.
-           Fluent in development languages, HTML, CSS, JavaScript, Type- script, Php, Java, Python along with development frameworks,
+          A software developer with over 2 Years of experience specializing in frontend and backend engineering.
+           Fluent in developing languages such as HTML, CSS, JavaScript, Type- script, Php, Java, Python along with development frameworks,
           Springboot, Angular, Vue JS, React, Node JS etc.        
             </p>
 

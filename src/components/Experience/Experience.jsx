@@ -29,12 +29,12 @@ const Experience = () => {
             <article className= 'experience__details'>
               <HiBadgeCheck />
               <h4>Node Package Manager(NPM)</h4>
-              <small className='text-light'>Intermediate</small>
+              <small className='text-light'>Basic</small>
             </article>
             <article className= 'experience__details'>
               <HiBadgeCheck />
               <h4>Bootstrap</h4>
-              <small className='text-light'>Intermediate</small>
+              <small className='text-light'>Basic</small>
             </article>
             <article className= 'experience__details'>
               <HiBadgeCheck />
@@ -55,12 +55,12 @@ const Experience = () => {
             <article className= 'experience__details'>
               <HiBadgeCheck />
               <h4>JavaScript</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Intermediate</small>
             </article>
             <article className= 'experience__details'>
               <HiBadgeCheck />
               <h4>Python</h4>
-              <small className='text-light'>Intermediate</small>
+              <small className='text-light'>Basic</small>
             </article>
             <article className= 'experience__details'>
               <HiBadgeCheck />
@@ -70,7 +70,7 @@ const Experience = () => {
             <article className= 'experience__details'>
               <HiBadgeCheck />
               <h4>PHP</h4>
-              <small className='text-light'>Intermediate</small>
+              <small className='text-light'>Basic</small>
             </article>
             <article className= 'experience__details'>
               <HiBadgeCheck />
